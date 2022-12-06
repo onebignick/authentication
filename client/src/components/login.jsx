@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import { useState } from 'react';
 
 export const Login = () => {
     const [loginUsernameInput, setLoginUsernameInput] = useState('');
@@ -41,7 +41,7 @@ export const Login = () => {
                 <input type="submit" value="Login"/>
             </form>
             <div>
-                Dont have an account? Sign-up here
+                Dont have an account? <a href="./signup">Signup</a> here!
             </div>
         </div>
     );

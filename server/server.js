@@ -9,6 +9,10 @@ app.use(cors({
     credentials: true,
 }));
 
+app.post('/createUser', async (request, response) => {
+    
+});
+
 app.listen(port, ()=>{
     console.log(`Express connected to http://localhost:${port}`)
-})
+});
